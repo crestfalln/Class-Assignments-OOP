@@ -1,6 +1,7 @@
+//QUESTION WAP to demonstrate working of various datatypes( Primitive, derived, user defined) including modifiers
 #include <iostream>
 
-constexpr int sum(int const &a, int const &b) // constexpr hints the compiler to do calculations at compile time 
+constexpr int sum(int const &a, int const &b) // constexpr hints the compiler to do calculations at compile time
 {                                             // Also function is an example of derived data type
     return a + b;
 }
@@ -23,6 +24,6 @@ int main()
     int a, b;
     std::cin >> a >> b;
     cout << sum(pair.a, pair.b) << endl; // Most probabaly done at compile time.
-    cout << sum(num1, 10);               // Most probabaly done at compile time.
+    cout << sum(num1, 10) << endl;       // Most probabaly done at compile time.
     cout << a + b << endl;               // Done at runtime
 }

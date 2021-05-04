@@ -1,3 +1,4 @@
+//QUESTION WAP to demonstrate various control structures(Selection, Iterative, Jump)
 #include <iostream>
 #include <vector>
 

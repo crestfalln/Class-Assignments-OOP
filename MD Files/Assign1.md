@@ -4,19 +4,18 @@ geometry: margin=1cm
 ---
 
 
-# Assignment No. 1  
-##### Himanshu Gupta CSE49  
+# Assignment No. 1   
+##### Himanshu Gupta CSE49   
 
 ## [<span style="color:blue">Pull with Git?</span>](https://github.com/crestfalln/Class-Assignments-OOP.git)
 
 ---
-#### Ouestion
-> CREATE A CLASS  STUDENT CONSIDERING SOME SET OF ATTRIBUTES AND FUNCTIONS, WAP TO DEMONSTRATE ITS WORKING.
+#### Ouestion No. 1 
+>   
 
 #### Code
-
 ```c
-#include <iostream>
+ #include <iostream>
 
 class student
 {
@@ -32,10 +31,15 @@ int main()
     s1.roll = 40;
     std::cout << s1.getRoll();
 }
+ 
 ```
->**Input**  
->  
->**Output**  
->40  
 
+#### $ Assign1/bin/1.o  
+**Input**    
+ >  
+ 
+
+**Output**  
+ >40  
+ 
 

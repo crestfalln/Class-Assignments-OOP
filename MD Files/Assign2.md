@@ -4,20 +4,18 @@ geometry: margin=1cm
 ---
 
 
-# Assignment No. 1  
-##### Himanshu Gupta CSE49  
+# Assignment No. 2   
+##### Himanshu Gupta CSE49   
 
 ## [<span style="color:blue">Pull with Git?</span>](https://github.com/crestfalln/Class-Assignments-OOP.git)
 
 ---
-#### Ouestion
-WAP TO DEMONSTRATE THE WORKING OF VARIOUS OPERATORS IN C++ LIKE ARITHMETIC, RELATIONAL, LOGICAL, BITWISE, INCREMENTAL, SIZEOF(), CONDITIONAL, COMMA ETC.
-
+#### Ouestion No. 1 
+>   
 
 #### Code
-
 ```c
-#include <iostream>
+ #include <iostream>
 
 int main()
 {
@@ -50,30 +48,36 @@ int main()
     cout << 25 << ". " << (++a) << endl ; // Returns operand increments before expression
     cout << 25 << ". " << sizeof(a) << endl ; // Returns size of operand on stack
 }
+ 
 ```
 
->**Input**  
->  
->**Output**  
->1. 7
->2. -1
->3. 12
->4. 0
->5. 3
->6. 0
->7. 1
->8. 0
->9. 1
->10. 1
->12. 0
->13. 7
->14. 0
->15. 7
->16. -4
->17. 12
->18. 0
->19. 2
->20. 4
->21. 2
->22. 4
->23. 2
+#### $ Assign2/bin/1.o  
+**Input**    
+ >  
+ 
+
+**Output**  
+ >1. 7  
+>2. -1  
+>3. 12  
+>4. 0  
+>5. 3  
+>6. 0  
+>7. 1  
+>8. 0  
+>9. 1  
+>10. 1  
+>12. 0  
+>13. 7  
+>14. 0  
+>15. 7  
+>16. -4  
+>17. 12  
+>18. 0  
+>19. 2  
+>20. 4  
+>21. 2  
+>22. 4  
+>23. 2  
+ 
+

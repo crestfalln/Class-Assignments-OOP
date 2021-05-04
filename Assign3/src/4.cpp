@@ -1,3 +1,4 @@
+//QUESTION WAP to demonstrate variable declarations including flexible declaration and runtime initialisation.
 #include <iostream>
 extern int a;   //Declared here
 extern int a;   //Declare any no of times
