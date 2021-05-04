@@ -48,8 +48,10 @@ int main()
  
 ```
 
-#### $ Assign3/bin/1.o  
-**Input**    
+#### $ Assign3/bin/1.o   
+>
+
+**Input**  
  >12 43  
  
 
@@ -57,6 +59,8 @@ int main()
  >3  
 >2055  
  
+
+---
 
 #### Ouestion No. 2 
 > WAP to demonstrate expressions and their types(Integer, Float, Constant, relational, logical, bitwise, assignment, compound)
@@ -87,14 +91,18 @@ int main()
  
 ```
 
-#### $ Assign3/bin/2.o  
-**Input**    
+#### $ Assign3/bin/2.o   
+>
+
+**Input**  
  >  
  
 
 **Output**  
  >6.13 6 10 6  
  
+
+---
 
 #### Ouestion No. 3 
 > WAP to demonstrate various control structures(Selection, Iterative, Jump)
@@ -133,8 +141,10 @@ label:
  
 ```
 
-#### $ Assign3/bin/3.o  
-**Input**    
+#### $ Assign3/bin/3.o   
+>
+
+**Input**  
  >  
  
 
@@ -149,6 +159,8 @@ label:
 >7 Inside for loop  
 >Inside label  
  
+
+---
 
 #### Ouestion No. 4 
 > WAP to demonstrate variable declarations including flexible declaration and runtime initialisation.
@@ -176,14 +188,18 @@ int main()
  
 ```
 
-#### $ Assign3/bin/4.o  
-**Input**    
+#### $ Assign3/bin/4.o   
+>
+
+**Input**  
  >12  
  
 
 **Output**  
  >  
  
+
+---
 
 #### Ouestion No. 5 
 > WAP to demonstrate Implicit and Explicit conversions.
@@ -207,8 +223,10 @@ int main()
  
 ```
 
-#### $ Assign3/bin/5.o  
-**Input**    
+#### $ Assign3/bin/5.o   
+>
+
+**Input**  
  >  
  
 
@@ -217,4 +235,6 @@ int main()
 >2  
 >2  
  
+
+---
 

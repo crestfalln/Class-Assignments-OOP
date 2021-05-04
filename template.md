@@ -19,9 +19,13 @@ geometry: margin=1cm
  $CODE 
 ```
 
-#### $BINARY 
-**Input**    
+#### $BINARY  
+>
+
+**Input**  
  $INPUT 
 
 **Output**  
  $OUTPUT 
+
+---

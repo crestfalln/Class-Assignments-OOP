@@ -51,8 +51,10 @@ int main()
  
 ```
 
-#### $ Assign2/bin/1.o  
-**Input**    
+#### $ Assign2/bin/1.o   
+>
+
+**Input**  
  >  
  
 
@@ -80,4 +82,6 @@ int main()
 >22. 4  
 >23. 2  
  
+
+---
 

@@ -34,12 +34,16 @@ int main()
  
 ```
 
-#### $ Assign1/bin/1.o  
-**Input**    
+#### $ Assign1/bin/1.o   
+>
+
+**Input**  
  >  
  
 
 **Output**  
  >40  
  
+
+---
 
