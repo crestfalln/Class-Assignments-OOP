@@ -1,6 +1,8 @@
 CC = g++
-objects = 1 
+objects = 1 2 3 4 5
+CFLAGS = -O2 
+LFLAGS =   
 all : $(objects)
 
 $(objects): % : %.cpp
-	$(CC) $< -g -o bin/$@.o
+	$(CC) $(CFLAGS) $(LFLAGS) $<  -o bin/$@.o

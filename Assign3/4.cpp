@@ -6,10 +6,11 @@ extern int b;
 
 int main()
 {
-
-    int a;  //Defined Here, Initialized here(Runtime maybe)
-    const int b = 10; //Defined here, initialized here(Most-probably compile time)
-    //int a = 10; //Error! Cannot redefine!
-    a = 10; //Reinitialized Here
-    //b = 11; //Error cannot reinitialize a const 
+    int a; //Defined here, Initialized here(Compile time)
+    //int a = 10; //Compiletime-error! Cannot redefine!
+    int const b = 10; //Defined here, initialized here(Compile time)
+    //b = 11; //Compiletime-error cannot reinitialize a const 
+    std::cin >> a;
+    int c(a); // Defined here, Initialized here(Runtime)
+    return 0;
 }
