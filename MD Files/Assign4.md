@@ -32,7 +32,7 @@ struct student
 class student_db
 {
 private:
-    std::map<std::string , std::unique_ptr<student>> m_db;
+    std::multimap<std::string , std::unique_ptr<student>> m_db;
 
 public:
     void insert(std::string const &name, int roll, std::string const &a_class, std::string const &grade);
