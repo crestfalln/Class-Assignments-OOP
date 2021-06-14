@@ -1,3 +1,5 @@
+//QUESTION WAP for "Student management system" to insert, delete, search display student records using functions and classes. Demonstrate function prototyping, function definition, function call, default arguments, inline functions, function overloading, call be value,  call be pointer, call by reference, arrays within classes, accessing private data and functions etc. through it.
+
 #include <iostream>
 #include <map>
 #include <memory>

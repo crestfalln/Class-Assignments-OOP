@@ -1,22 +1,30 @@
----
-pagestyle: empty
-geometry: margin=1cm
----
 
 
 # Assignment No. 3   
 ##### Himanshu Gupta CSE49   
 
-## [<span style="color:blue">Pull with Git?</span>](https://github.com/crestfalln/Class-Assignments-OOP.git)
+## [Pull with Git?](https://github.com/crestfalln/Class-Assignments-OOP.git)  
+
+>This assignment is best viewed on GitHub. Use above link.
+
+## Index
+
+1. [WAP to demonstrate working of various datatypes( Primitive, derived, user defined) including modifiers](#question-no-1)
+2. [WAP to demonstrate expressions and their types(Integer, Float, Constant, relational, logical, bitwise, assignment, compound)](#question-no-2)
+3. [WAP to demonstrate various control structures(Selection, Iterative, Jump)](#question-no-3)
+4. [WAP to demonstrate variable declarations including flexible declaration and runtime initialisation.](#question-no-4)
+5. [WAP to demonstrate Implicit and Explicit conversions.](#question-no-5)
+ 
 
 ---
-#### Ouestion No. 1 
-> WAP to demonstrate working of various datatypes( Primitive, derived, user defined) including modifiers
+#### Question No. 1  
+:   
+>WAP to demonstrate working of various datatypes( Primitive, derived, user defined) including modifiers
   
 
 #### Code
 ```c
- //QUESTION WAP to demonstrate working of various datatypes( Primitive, derived, user defined) including modifiers
+//QUESTION WAP to demonstrate working of various datatypes( Primitive, derived, user defined) including modifiers
 #include <iostream>
 
 constexpr int sum(int const &a, int const &b) // constexpr hints the compiler to do calculations at compile time
@@ -44,31 +52,32 @@ int main()
     cout << sum(pair.a, pair.b) << endl; // Most probabaly done at compile time.
     cout << sum(num1, 10) << endl;       // Most probabaly done at compile time.
     cout << a + b << endl;               // Done at runtime
-}
- 
+} 
 ```
 
-#### $ Assign3/bin/1.o   
->
+#### $ Assign3/bin/1.o     
+
+-
 
 **Input**  
- >12 43  
- 
+12 43     
 
 **Output**  
- >3  
->2055  
+3  
+2055  
  
 
 ---
 
-#### Ouestion No. 2 
-> WAP to demonstrate expressions and their types(Integer, Float, Constant, relational, logical, bitwise, assignment, compound)
+
+#### Question No. 2  
+:   
+>WAP to demonstrate expressions and their types(Integer, Float, Constant, relational, logical, bitwise, assignment, compound)
   
 
 #### Code
 ```c
- //QUESTION WAP to demonstrate expressions and their types(Integer, Float, Constant, relational, logical, bitwise, assignment, compound)
+//QUESTION WAP to demonstrate expressions and their types(Integer, Float, Constant, relational, logical, bitwise, assignment, compound)
 #include <iostream>
 
 int main()
@@ -87,30 +96,31 @@ int main()
     int d = (b = a); // LHS returns &b which is a lval ref. RHS calls the constructor and initializes d to &a.
     cout << a << ' ' << b << ' ' << c << ' ' << d << endl; // Returns std::cout modifiable lval ref
     return 0;
-}
- 
+} 
 ```
 
-#### $ Assign3/bin/2.o   
->
+#### $ Assign3/bin/2.o     
+
+-
 
 **Input**  
- >  
  
 
 **Output**  
- >6.13 6 10 6  
+6.13 6 10 6  
  
 
 ---
 
-#### Ouestion No. 3 
-> WAP to demonstrate various control structures(Selection, Iterative, Jump)
+
+#### Question No. 3  
+:   
+>WAP to demonstrate various control structures(Selection, Iterative, Jump)
   
 
 #### Code
 ```c
- //QUESTION WAP to demonstrate various control structures(Selection, Iterative, Jump)
+//QUESTION WAP to demonstrate various control structures(Selection, Iterative, Jump)
 #include <iostream>
 #include <vector>
 
@@ -137,38 +147,39 @@ label:
     cout << "Inside label" << endl; //Executed twice
     return 0;
     cout << "After Label"; //Never Executed
-}
- 
+} 
 ```
 
-#### $ Assign3/bin/3.o   
->
+#### $ Assign3/bin/3.o     
+
+-
 
 **Input**  
- >  
  
 
 **Output**  
- >Inside if  
->1 Inside for loop  
->2 Inside for loop  
->3 Inside for loop  
->4 Inside for loop  
->5 Inside for loop  
->6 Inside for loop  
->7 Inside for loop  
->Inside label  
+Inside if  
+1 Inside for loop  
+2 Inside for loop  
+3 Inside for loop  
+4 Inside for loop  
+5 Inside for loop  
+6 Inside for loop  
+7 Inside for loop  
+Inside label  
  
 
 ---
 
-#### Ouestion No. 4 
-> WAP to demonstrate variable declarations including flexible declaration and runtime initialisation.
+
+#### Question No. 4  
+:   
+>WAP to demonstrate variable declarations including flexible declaration and runtime initialisation.
   
 
 #### Code
 ```c
- //QUESTION WAP to demonstrate variable declarations including flexible declaration and runtime initialisation.
+//QUESTION WAP to demonstrate variable declarations including flexible declaration and runtime initialisation.
 #include <iostream>
 extern int a;   //Declared here
 extern int a;   //Declare any no of times
@@ -184,30 +195,30 @@ int main()
     std::cin >> a;
     int c(a); // Defined here, Initialized here(Runtime)
     return 0;
-}
- 
+} 
 ```
 
-#### $ Assign3/bin/4.o   
->
+#### $ Assign3/bin/4.o     
+
+-
 
 **Input**  
- >12  
- 
+12     
 
 **Output**  
- >  
  
 
 ---
 
-#### Ouestion No. 5 
-> WAP to demonstrate Implicit and Explicit conversions.
+
+#### Question No. 5  
+:   
+>WAP to demonstrate Implicit and Explicit conversions.
   
 
 #### Code
 ```c
- //QUESTION WAP to demonstrate Implicit and Explicit conversions.
+//QUESTION WAP to demonstrate Implicit and Explicit conversions.
 #include <iostream>
 
 int main()
@@ -219,22 +230,21 @@ int main()
     cout << a + b << endl;     // a implicitly casted to double
     cout << double(a) << endl; // a explicitly casted to double(c-style)
     cout << static_cast<double>(a); // a explicitly casted to double(c++ only)
-}
- 
+} 
 ```
 
-#### $ Assign3/bin/5.o   
->
+#### $ Assign3/bin/5.o     
+
+-
 
 **Input**  
- >  
  
 
 **Output**  
- >12.2  
->2  
->2  
- 
+12.2  
+2  
+2   
 
 ---
+
 

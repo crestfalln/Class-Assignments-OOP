@@ -1,21 +1,28 @@
----
-pagestyle: empty
-geometry: margin=1cm
----
 
 
 # Assignment No. 4   
 ##### Himanshu Gupta CSE49   
 
-## [<span style="color:blue">Pull with Git?</span>](https://github.com/crestfalln/Class-Assignments-OOP.git)
+## [Pull with Git?](https://github.com/crestfalln/Class-Assignments-OOP.git)  
+
+>This assignment is best viewed on GitHub. Use above link.
+
+## Index
+
+1. [WAP for "Student management system" to insert, delete, search display student records using functions and classes. Demonstrate function prototyping, function definition, function call, default arguments, inline functions, function overloading, call be value,  call be pointer, call by reference, arrays within classes, accessing private data and functions etc. through it.](#question-no-1)
+ 
 
 ---
-#### Ouestion No. 1 
->   
+#### Question No. 1  
+:   
+>WAP for "Student management system" to insert, delete, search display student records using functions and classes. Demonstrate function prototyping, function definition, function call, default arguments, inline functions, function overloading, call be value,  call be pointer, call by reference, arrays within classes, accessing private data and functions etc. through it.
+  
 
 #### Code
 ```c
- #include <iostream>
+//QUESTION WAP for "Student management system" to insert, delete, search display student records using functions and classes. Demonstrate function prototyping, function definition, function call, default arguments, inline functions, function overloading, call be value,  call be pointer, call by reference, arrays within classes, accessing private data and functions etc. through it.
+
+#include <iostream>
 #include <map>
 #include <memory>
 
@@ -70,17 +77,18 @@ int main()
  
 ```
 
-#### $ Assign4//bin/1.o   
->
+#### $ Assign4/bin/1.o     
+
+-
 
 **Input**  
- >  
  
 
 **Output**  
- >Last Written Name: Ritika  
->Grade of Himanshu: B+  
+Last Written Name: Ritika  
+Grade of Himanshu: B+  
  
 
 ---
+
 
