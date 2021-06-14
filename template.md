@@ -1,17 +1,21 @@
----
-pagestyle: empty
-geometry: margin=1cm
----
 
+$QUESTION_ANCHOR question-no-
 
 # Assignment No. $NO   
 ##### $NAME $ROLL   
 
-## [<span style="color:blue">Pull with Git?</span>](https://github.com/crestfalln/Class-Assignments-OOP.git)
+## [Pull with Git?](https://github.com/crestfalln/Class-Assignments-OOP.git)  
+
+>This assignment is best viewed on GitHub. Use above link.
+
+## Index
+
+ $INDEX 
 
 ---
 [//]: <> (MAIN)
-#### Ouestion No. $QNO 
+#### Question No. $QNO  
+:   
 > $QUES  
 
 #### Code
@@ -19,8 +23,9 @@ geometry: margin=1cm
  $CODE 
 ```
 
-#### $BINARY  
->
+#### $BINARY    
+
+-
 
 **Input**  
  $INPUT 
